@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 const PAT = process.env.API_CLARIFAI;
-const USER_ID = 'yb1pnol834q2';
+const USER_ID = process.env.API_CLARIFAI_USER;
 const APP_ID = 'face-recognition-app';
 const MODEL_ID = 'face-detection';
 const MODEL_VERSION_ID = '6dc7e46bc9124c5c8824be4822abe105';
